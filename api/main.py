@@ -33,6 +33,9 @@ def get():
 def get():
     return "hello2"
 
+@app.get("/get3")
+def get():
+    return "hello3"
 
 @app.get("/find", response_model=List[Todo])
 def find(todo_filter: TodoFilter = Depends(), todo_repository: TodoRepository = Depends(create_todo_repository)):
