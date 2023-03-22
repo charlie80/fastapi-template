@@ -1,5 +1,6 @@
 # Fastapi 项目模板
 
+直接远程编辑且不是更爽
 
 使用 Make、Docker Compose 和 Github Actions 的 FastAPI 项目模板，
 其中包括 **SQLAlchemy**、**Alembic** 和集成测试设置。
